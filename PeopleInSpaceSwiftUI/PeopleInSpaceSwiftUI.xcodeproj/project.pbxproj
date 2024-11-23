@@ -305,12 +305,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = PeopleInSpaceMac/PeopleInSpaceMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_ASSET_PATHS = "\"PeopleInSpaceMac/Preview Content\"";
-				DEVELOPMENT_TEAM = NT77748GS8;
+				DEVELOPMENT_TEAM = 8FV7B2E6S8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../common/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)\n";
@@ -328,7 +329,7 @@
 					"-framework",
 					common,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.johnoreilly..PeopleInSpaceMac;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thiagopereira.PeopleInSpaceMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -343,11 +344,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = PeopleInSpaceMac/PeopleInSpaceMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PeopleInSpaceMac/Preview Content\"";
-				DEVELOPMENT_TEAM = NT77748GS8;
+				DEVELOPMENT_TEAM = 8FV7B2E6S8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../common/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)\n";
@@ -365,7 +367,7 @@
 					"-framework",
 					common,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.johnoreilly..PeopleInSpaceMac;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thiagopereira.PeopleInSpaceMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -496,7 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PeopleInSpaceSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = NT77748GS8;
+				DEVELOPMENT_TEAM = 8FV7B2E6S8;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +516,7 @@
 					"-framework",
 					common,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.PeopleInSpaceSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thiagopereira.PeopleInSpaceSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -531,7 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PeopleInSpaceSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = NT77748GS8;
+				DEVELOPMENT_TEAM = 8FV7B2E6S8;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,7 +551,7 @@
 					"-framework",
 					common,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.PeopleInSpaceSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thiagopereira.PeopleInSpaceSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
